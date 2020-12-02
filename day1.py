@@ -1,6 +1,6 @@
 from read_input import read_file
 
-lines = [int(line) for line in read_file()]
+lines = [int(line) for line in read_file('input1.txt')]
 
 # Part 1
 def find_pair(lines, target):
